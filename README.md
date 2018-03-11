@@ -80,8 +80,8 @@ document.addEventListener('mouseup', function(e){
 
 ```javascript
 target.point = {
-	x: e.clientX - target.$item.offsetLeft,
-	y: e.clientY - target.$item.offsetTop
+    x: e.clientX - target.$item.offsetLeft,
+    y: e.clientY - target.$item.offsetTop
 }
 ```
 

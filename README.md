@@ -85,4 +85,4 @@ target.point = {
 }
 ```
 
-具体效果请看[demo](http://little-white.github.io/src/index.html)
+具体效果请看[demo](http://little-white.github.io/js-drag/src/index.html)

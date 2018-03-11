@@ -13,10 +13,10 @@
 var point = {}
 var dragItem = document.querySelector('.drag-item')
 $dragItem.addEventListener('mousedown', function(e){
-  	point = {
-  		x: e.clientX,
-    	y: e.clientY
-  	}
+    point = {
+        x: e.clientX,
+        y: e.clientY
+    }
 })
 ```
 

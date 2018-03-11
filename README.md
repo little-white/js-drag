@@ -51,9 +51,9 @@ target.$item = document.querySelector('.drag-item')
 target.$item.addEventListener('mousedown', function(e){
     target.active = true
   	target.point = {
-  		x: e.clientX,
-    	y: e.clientY
-  	}
+        x: e.clientX,
+        y: e.clientY
+    }
 })
 document.addEventListener('mousemove', function(e){
     if(target.active){
